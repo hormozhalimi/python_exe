@@ -1,14 +1,16 @@
+
+
 Carly's Clippers
-You are the Data Analyst at Carly’s Clippers, the newest hair salon on the block. Your job is to go through the lists of data that have been collected in the past couple of weeks. You will be calculating some important metrics that Carly can use to plan out the operation of the business for the rest of the month.
+You are the Data Analyst at Carlyâ€™s Clippers, the newest hair salon on the block. Your job is to go through the lists of data that have been collected in the past couple of weeks. You will be calculating some important metrics that Carly can use to plan out the operation of the business for the rest of the month.
 
 You have been provided with three lists:
 
-hairstyles: the names of the cuts offered at Carly’s Clippers
+hairstyles: the names of the cuts offered at Carlyâ€™s Clippers
 prices: the price of each hairstyle in the hairstyles list
 last_week: the number of each hairstyle in hairstyles that was purchased last week
-Let’s get started!
+Letâ€™s get started!
 
-If you get stuck during this project or would like to see an experienced developer work through it, click “Get Help“ to see a project walkthrough video.
+If you get stuck during this project or would like to see an experienced developer work through it, click â€œGet Helpâ€œ to see a project walkthrough video.
 
 Tasks
 13/13Complete
@@ -17,7 +19,7 @@ Prices and Cuts:
 1.
 Carly wants to be able to market her low prices. We want to find out what the average price of a cut is.
 
-First, let’s sum up all the prices of haircuts. Create a variable total_price, and set it to 0.
+First, letâ€™s sum up all the prices of haircuts. Create a variable total_price, and set it to 0.
 
 
 Stuck? Get a hint
@@ -53,7 +55,7 @@ Print new_prices.
 Stuck? Get a hint
 Revenue:
 7.
-Carly really wants to make sure that Carly’s Clippers is a profitable endeavor. She first wants to know how much revenue was brought in last week.
+Carly really wants to make sure that Carlyâ€™s Clippers is a profitable endeavor. She first wants to know how much revenue was brought in last week.
 
 Create a variable called total_revenue and set it to 0.
 
@@ -119,7 +121,7 @@ last_week = [2, 3, 5, 8, 4, 4, 6, 2]
 total_price=0
 
 for price in prices:
-  total_price += price 
+  total_price += price / we can do this line by writting: total_price = total_price + price
 
 
 average_price = total_price/len(prices)
