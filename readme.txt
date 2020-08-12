@@ -139,7 +139,7 @@ total_revenue= total_counts*total_price
 
 print("Total revenue : "+ str(total_revenue))
 
-average_daily_revenue =total_revenue/7
+average_daily_revenue = total_revenue/8
 
 cuts_under_30 = [hairstyles[i] for i in range(len(hairstyles))if new_prices[i] < 30 ]
 
